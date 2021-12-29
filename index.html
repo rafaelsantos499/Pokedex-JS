@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PokeDex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="modal">
+      <div class="container-modal">
+        <button data-modal="closer" class="closer">X</button>
+        <div class="iten"></div>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Pokedex</h1>
+      <div class="btns-types-pokemon">
+        <h2>Tipos de pokemon:</h2>
+        <button class="btn-grass">grass</button>
+        <button class="btn-fire">fire</button>
+        <button class="btn-water">water</button>
+        <button class="btn-bug">bug</button>
+        <button class="btn-normal">normal</button>
+        <button class="btn-poison">poison</button>
+        <button class="btn-electric">electric</button>
+        <button class="btn-ground">ground</button>
+        <button class="btn-fairy">fairy</button>
+        <button class="btn-fighting">fighting</button>
+        <button class="btn-psychic">psychic</button>
+        <button class="btn-rock">rock</button>
+        <button class="btn-ghost">ghost</button>
+        <button class="btn-ice">ice</button>
+        <button class="btn-dragon">dragon</button>
+      </div>
+
+      <ul data-js="pokedex" class="pokedex"></ul>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
